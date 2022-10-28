@@ -1,0 +1,27 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    font-size: 3em;
+}
+.container{
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+    grid-gap: 0.7em;
+}
+.date-number , .date-name{
+    background-color: rgba(8, 50, 87, 0.432);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 1.3em;
+
+}
+.date-name{
+    font-size: 1.7em;
+}
+.dis{
+    background-color: rgba(189, 183, 107, 0.5);
+}
